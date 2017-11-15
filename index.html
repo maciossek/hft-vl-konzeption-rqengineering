@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>HFT IPR #8 Project Management, Requirements Engineering</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/atom-one-dark.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+	</head>
+	<!-- https://media.giphy.com/media/OvzMNfWETBoKQ/giphy.gif -->
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-size="cover" data-background-image="https://managitblog.files.wordpress.com/2016/10/image.gif">
+					<h1 class="title">IPR</h1>
+					<h3 class="title">Project Management, Requirements Engineering</h3>
+				</section>
+				<section>
+					<section>
+						<h2>Projektstart</h2>
+						<img height="500" style="border: 0;" src="https://media.giphy.com/media/QJvwBSGaoc4eI/giphy.gif" />
+					</section>
+					<section data-markdown>
+						## Zielgerichtet arbeiten
+
+						- Personas
+						- Customer Interviews
+						- Job-Stories
+						- Meilestein bzw. Zeitplan erstellen
+					</section>
+					<section data-markdown>
+						## Personas erstellen
+
+						- [Beispiel](files/Persona.pdf)
+						- Ziele definieren
+						- Ein Gefühl bekommen wer der User ist und wie er die Software benutzt
+						- "Design for the intermediate"
+						- Personas sind Annahmen!
+					</section>
+					<section data-markdown>
+						## Customer Interviews
+
+						- [The Mom Test](http://amzn.to/2hyXiV7)
+						- [Designing for the Digital Age](http://amzn.to/2jsWIsy)
+					</section>
+					<section>
+						<h2>Job Stories vs User Stories</h2>
+
+						<img height="500" style="border: 0;" src="https://cdn-images-1.medium.com/max/1600/1*lwr2g0HvLOVr5IPVNoYxLg.png" />
+					</section>
+					<section>
+						<h2>Job Stories</h2>
+
+						<img height="500" style="border: 0;" src="https://cdn-images-1.medium.com/max/2000/1*ua_egpJ6K1fCAQ_hY5UHAA.png" />
+					</section>
+					<section>
+						<h2>Meilensteine definieren</h2>
+
+						<img height="500" style="border: 0;" src="http://www.meinevorlagen.com/wp-content/uploads/Excel-Meilensteinplan-12.jpg" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Software Design</h2>
+						<img height="500" style="border: 0;" src="https://media.giphy.com/media/BBkKEBJkmFbTG/giphy.gif" />
+					</section>
+					<section data-markdown>
+						## 1. Design planen
+						- Stift & Papier
+						- Balsamiq
+					</section>
+					<section>
+						<h2>Balsamiq</h2>
+
+						<img height="500" style="border: 0;" src="https://media.balsamiq.com/img/examples/wiki-sketch.png" />
+					</section>
+					<section data-markdown>
+						## 2. Architektur planen
+						- Technologien festlegen
+						- UML
+					</section>
+					<section>
+						<h2>UML</h2>
+
+						<img height="500" style="border: 0; background: white;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/UmlCd_Klassendiagramm-1.svg/600px-UmlCd_Klassendiagramm-1.svg.png" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Projekt Strategie</h2>
+						<img height="500" style="border: 0;" src="https://media.giphy.com/media/ADQGsKqqoBxkc/giphy.gif" />
+					</section>
+					<section data-markdown>
+						## Wasserfall
+
+						- Kann Änderungen innerhalb des Projekts schlecht berücksichtigen
+						- Es gibt eigentlich kein Zurück beim Wasserfall-Modell
+						- Ein altes Modell, aber immer berechtigt im Einsatz
+					</section>
+					<section data-markdown>
+						## Agil
+
+						- [Agile Manifesto](http://agilemanifesto.org/)
+						- Lebt vom Feedback (des Kunden)
+						- Schnelllebig, bezieht Developer in den Planungsprozess aktiv mit ein
+						- IMHO: Defacto der Standard im Moment
+					</section>
+					<section>
+						<h2>Wasserfall vs. Agile</h2>
+
+						<img height="500" style="border: 0" src="https://www.bsi-software.com/fileadmin/daten/_processed_/csm_Entwicklungs-Methoden_2ba5d9dae5.png" />
+					</section>
+					<section>
+						<h2>Tasklisten</h2>
+						<ul>
+							<li>Beispiel: <a target="_blank" href="https://github.com/maciossek/hft-vl-08/issues">GitHub Issues</a></li>
+						</ul>
+						<table>
+							<tr>
+								<th>Vorteile</th>
+								<th>Nachteile</th>
+							</tr>
+							<tr>
+								<td>Schnelles & Simpel</td>
+								<td>Unübersichtlich</td>
+							</tr>
+							<tr>
+								<td>Einfache Prioisierung</td>
+								<td>Schwere Modulaisierung</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h2>Kanban</h2>
+						<ul>
+							<li>Beispiel: <a target="_blank" href="https://trello.com/b/nC8QJJoZ/trello-development-roadmap">Trello</a></li>
+						</ul>
+						<table>
+							<tr>
+								<th>Vorteile</th>
+								<th>Nachteile</th>
+							</tr>
+							<tr>
+								<td>Übersichtlich</td>
+								<td>Priorisierung kann mehr Zeit in Anspruch nehmen</td>
+							</tr>
+							<tr>
+								<td>Work in Progress auf einen Blick</td>
+								<td>Muss vom Team angenommen werden</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h2>Scrum</h2>
+						<ul>
+							<li>Beispiel: <a target="_blank" href="https://confluence.atlassian.com/download/attachments/397809860/gh_6-2-1_plan-mode.png?version=1&modificationDate=1369957845474&api=v2">Trello</a></li>
+						</ul>
+						<table>
+							<tr>
+								<th>Vorteile</th>
+								<th>Nachteile</th>
+							</tr>
+							<tr>
+								<td>Modulare Planung</td>
+								<td>Backlog kann Abfallhaufen werden</td>
+							</tr>
+							<tr>
+								<td>Das Team bestimmt was innerhalb eines Sprints getan wird</td>
+								<td>Kann langweilig werden</td>
+							</tr>
+						</table>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Projekt durchführen</h2>
+
+						<img height="500" style="border: 0;" src="https://media.giphy.com/media/UStTiq1FoOu64/giphy.gif" />
+					</section>
+					<section data-markdown>
+						## Kommunikation
+
+						- [Slack](https://slack.com) 
+						- Geschriebens &gt; Gesprochenes
+					</section>
+					<section data-markdown>
+						## Tests
+
+						- Unit Tests (JUnit, Mocha, Jasmine, QUnit)
+						- Integration Tests (JUnit, Mocha, Jasmine, QUnit)
+						- Funktionale Tests (PhantomJS, Selenium)
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Weitere Links</h2>
+						<ul>
+							<li><a href="https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27" target="_blank">Job Stories</a></li>
+							<li><a href="https://jtbd.info/5-tips-for-writing-a-job-story-7c9092911fc9" target="_blank">Tips for writing a Job Story</a></li>
+							<li><a href="https://trello.com" target="_blank">Trello</a></li>
+							<li><a href="https://asana.com" target="_blank">Asana</a></li>
+							<li><a href="https://slack.com" target="_blank">Slack</a></li>
+						</ul>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				backgroundTransition: 'slide',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
+transition
